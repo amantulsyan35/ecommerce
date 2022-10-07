@@ -28,22 +28,32 @@ const Collections = () => {
       </div>
       <div className='collections-item-container'>
         <div className='collections-item'>
-          <div className='collections-img'></div>
+          <div className='collections-img-1'></div>
           <p>name</p>
           <p>x</p>
         </div>
         <div className='collections-item'>
-          <div className='collections-img'></div>
+          <div className='collections-img-2'></div>
+          <p>name</p>
+          <p>y</p>
+        </div>
+        <div className='collections-item'>
+          <div className='collections-img-3'></div>
           <p>name</p>
           <p>x</p>
         </div>
         <div className='collections-item'>
-          <div className='collections-img'></div>
+          <div className='collections-img-4'></div>
           <p>name</p>
           <p>x</p>
         </div>
         <div className='collections-item'>
-          <div className='collections-img'></div>
+          <div className='collections-img-5'></div>
+          <p>name</p>
+          <p>x</p>
+        </div>
+        <div className='collections-item'>
+          <div className='collections-img-6'></div>
           <p>name</p>
           <p>x</p>
         </div>

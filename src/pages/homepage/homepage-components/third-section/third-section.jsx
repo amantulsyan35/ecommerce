@@ -1,10 +1,10 @@
 import React from 'react';
-import bracletPath from '../../../assets/third-section/braclet.png';
-import ringsPath from '../../../assets/third-section/rings.png';
-import othersPath from '../../../assets/third-section/others.png';
-import earingsPath from '../../../assets/third-section/earings.png';
-import necklacesPath from '../../../assets/third-section/necklaces.png';
-import setsPath from '../../../assets/third-section/sets.png';
+import bracletPath from '../../../../assets/third-section/braclet.png';
+import ringsPath from '../../../../assets/third-section/rings.png';
+import othersPath from '../../../../assets/third-section/others.png';
+import earingsPath from '../../../../assets/third-section/earings.png';
+import necklacesPath from '../../../../assets/third-section/necklaces.png';
+import setsPath from '../../../../assets/third-section/sets.png';
 import './third-section.css';
 
 const ThirdSection = () => {

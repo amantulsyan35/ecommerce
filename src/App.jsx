@@ -1,6 +1,6 @@
 import './App.css';
 import EcommerceStore from './routes/ecommerce-route';
-import { UpperNavbar, LowerNavbar } from './components';
+import { UpperNavbar, LowerNavbar, Footer } from './components';
 
 const App = () => {
   return (
@@ -8,6 +8,7 @@ const App = () => {
       <UpperNavbar />
       <LowerNavbar />
       <EcommerceStore />
+      {/*<Footer />*/}
     </div>
   );
 };
