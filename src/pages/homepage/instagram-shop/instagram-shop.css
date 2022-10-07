@@ -1,0 +1,47 @@
+.instagram-shop {
+  height: 603px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+}
+
+.instagram-shop h2 {
+  color: #442414;
+  font-size: 30px;
+  margin-top: 2rem;
+}
+
+.instagram-shop-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;
+}
+
+.instagram-shop-item-1 {
+  background-image: url('/src/assets/instagram-shop/1.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 388px;
+  width: 400px;
+}
+
+.instagram-shop-item-2 {
+  background-image: url('/src/assets/instagram-shop/2.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 388px;
+  width: 400px;
+}
+.instagram-shop-item-3 {
+  background-image: url('/src/assets/instagram-shop/3.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 388px;
+  width: 400px;
+}

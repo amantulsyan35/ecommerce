@@ -1,0 +1,38 @@
+.bespoke-design {
+  background: url('/src/assets/be-spoke/be-spoke.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 471px;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: start;
+  justify-content: center;
+}
+
+.bespoke-design h1 {
+  color: white;
+  font-size: 70px;
+  line-height: 110px;
+  font-weight: 600;
+  margin-left: 102px;
+}
+
+.bespoke-design p {
+  color: white;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 41px;
+  margin-left: 102px;
+}
+
+.bespoke-design button {
+  border: 1px solid white;
+  width: 210px;
+  height: 48.08px;
+  background: transparent;
+  color: white;
+  margin-left: 102px;
+  cursor: pointer;
+}

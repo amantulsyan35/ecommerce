@@ -1,0 +1,24 @@
+.upper-nav-container {
+  height: 67px;
+  display: flex;
+  padding: 0;
+  flex-direction: row;
+  justify-content: end;
+  align-items: center;
+  background-color: #e1cbd2;
+  gap: 1rem;
+}
+
+.upper-nav-design {
+  margin-right: auto;
+  width: 799px;
+  height: 57px;
+}
+
+.upper-nav-button {
+  width: 145px;
+  height: 39px;
+  border: none;
+  border-radius: 4px;
+  margin-right: 68px;
+}

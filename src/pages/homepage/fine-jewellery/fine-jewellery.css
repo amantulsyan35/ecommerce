@@ -1,0 +1,76 @@
+.fine-jewellery {
+  height: 100%;
+  display: flex;
+  gap: 2rem;
+  flex-direction: column;
+  align-items: center;
+}
+
+.fine-jewellery h2 {
+  color: #442414;
+  margin-top: 2rem;
+  font-size: 30px;
+  margin-top: 2rem;
+}
+
+.fine-jewellery-collection {
+  display: grid;
+  width: 1204px;
+  height: 673px;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  margin-bottom: 4rem;
+}
+
+.fine-jewellery-left {
+  background-image: url('/src/assets/fine-jewellery/new_arriavls.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.fine-jewellery-right {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  background: linear-gradient(
+    180deg,
+    #e2ccd3 0.67%,
+    #ddc7ce 20.85%,
+    #d0b9c1 44.52%,
+    #baa1aa 69.93%,
+    #9b818a 96.41%,
+    #977c86 99.71%
+  );
+}
+
+.fine-jewellery-flawless {
+  background-image: url('/src/assets/fine-jewellery/rings.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 320px;
+}
+
+.fine-jewellery-lower-right {
+  height: 353px;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.fine-jewellery-ethically {
+  background-image: url('/src/assets/fine-jewellery/ethical.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  flex-grow: 1;
+}
+
+.fine-jewellery-memorable {
+  background-image: url('/src/assets/fine-jewellery/memorable.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  flex-grow: 1;
+}

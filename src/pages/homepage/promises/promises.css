@@ -1,0 +1,73 @@
+.promises {
+  height: 603px;
+  display: flex;
+  /* gap: 2rem; */
+  flex-direction: column;
+  align-items: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.promises-img {
+  height: 100%;
+  background: url('/src/assets/promises/promises_img.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.promises-right {
+  height: 100%;
+  color: #442414;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  gap: 1rem;
+  background: linear-gradient(
+    180deg,
+    #e2ccd3 0.67%,
+    #ddc7ce 20.85%,
+    #d0b9c1 44.52%,
+    #baa1aa 69.93%,
+    #9b818a 96.41%,
+    #977c86 99.71%
+  );
+}
+
+.promises-right h2 {
+  color: #442414;
+  /* margin-left: 2rem; */
+  font-size: 60px;
+  margin-top: 2rem;
+}
+
+.promises-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: start;
+  gap: 1rem;
+  /* margin-left: 2rem; */
+  /* margin-top: 2rem; */
+}
+
+.promises-icon {
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 64px;
+  width: 64px;
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    #ffffff 0%,
+    rgba(255, 255, 255, 0.88) 100%
+  );
+  cursor: pointer;
+}
+
+.promises-item p {
+  font-size: 20px;
+}

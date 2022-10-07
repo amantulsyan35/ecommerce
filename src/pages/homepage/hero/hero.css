@@ -1,0 +1,28 @@
+.homepage-hero-section {
+  height: 569px;
+  background-image: url('/src/assets/homepage/homepage-hero.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.homepage-hero-section h1 {
+  font-weight: 600;
+  font-size: 52.48px;
+  letter-spacing: 2%;
+  line-height: 69.96px;
+  margin-left: 5rem;
+}
+
+.homepage-hero-section button {
+  border: 1px solid #442414;
+  background-color: transparent;
+  width: 227px;
+  height: 52px;
+  margin-left: 5rem;
+  font-size: 16px;
+}
