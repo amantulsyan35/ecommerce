@@ -9,7 +9,7 @@ const LowerNavbar = () => {
       <div className='lower-nav-link-container'>
         <NavLink className='lower-nav-link'>All products</NavLink>
         <NavLink className='lower-nav-link'>Rings</NavLink>
-        <NavLink className='lower-nav-link'>Jwellery</NavLink>
+        <NavLink className='lower-nav-link'>Jewellery</NavLink>
         <NavLink className='lower-nav-link'>Blogs</NavLink>
         <NavLink className='lower-nav-link'>Gifting</NavLink>
       </div>

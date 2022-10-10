@@ -2,7 +2,6 @@ import React from 'react';
 import {
   Hero,
   FineJewellery,
-  ThirdSection,
   FeaturedCollection,
   BeSpokeDesigns,
   Collections,
@@ -10,6 +9,7 @@ import {
   InstagramShop,
   Newsletter,
 } from './homepage-components';
+import { ThirdSection } from '../../components';
 
 import './homepage.css';
 

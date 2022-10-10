@@ -1,0 +1,19 @@
+.products-hero {
+  height: 569px;
+  background-image: url('/src/assets/products-hero/products-hero.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.products-hero h1 {
+  font-weight: 600;
+  font-size: 52.48px;
+  letter-spacing: 2%;
+  line-height: 69.96px;
+  margin-left: 5rem;
+}

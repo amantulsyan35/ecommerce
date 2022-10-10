@@ -1,0 +1,26 @@
+.wishlist {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+  /* border: 1px solid rgb(0, 0, 0, 0.2); */
+  margin-left: 4rem;
+  margin-right: 4rem;
+  padding-right: 4rem;
+  padding-left: 4rem;
+}
+
+.wishlist h2 {
+  color: #442414;
+  margin-top: 2rem;
+  font-size: 30px;
+  margin-top: 2rem;
+}
+
+.wishlist-item-container {
+  display: flex;
+  flex-direction: column;
+  /* height: 20rem; */
+  width: 100%;
+  gap: 1rem;
+}
