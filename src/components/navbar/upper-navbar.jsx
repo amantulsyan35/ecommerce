@@ -3,6 +3,8 @@ import { NavLink } from 'react-router-dom';
 import './upper-navbar.css';
 import LoginModal from '../login-modal/login';
 import LogoutModal from '../logout-modal/logout';
+import carticon from './../../assets/shopping_bag.svg';
+import wishlisticon from './../../assets/wishlist.svg';
 
 const UpperNavbar = () => {
   const wrapperRef = useRef(null);
@@ -35,13 +37,10 @@ const UpperNavbar = () => {
         className='upper-nav-design'
      />*/}
       <NavLink className='upper-nav-cart'>
-        <img src='/src/assets/wishlist.svg' className='upper-nav-cart-icon' />
+        <img src={wishlisticon} className='upper-nav-cart-icon' />
       </NavLink>
       <NavLink to='/cart' className='upper-nav-cart'>
-        <img
-          src='/src/assets/shopping_bag.svg'
-          className='upper-nav-cart-icon'
-        />
+        <img src={carticon} className='upper-nav-cart-icon' />
       </NavLink>
 
       <button
