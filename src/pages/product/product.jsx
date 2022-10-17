@@ -1,8 +1,10 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './product.css';
 import { ItemCard } from '../../components';
 
 const Product = () => {
+  const [selectedTab, setSelectedTab] = useState('description');
+
   return (
     <section className='product-page'>
       <div className='product-details'>
@@ -38,8 +40,8 @@ const Product = () => {
             <li>Nulla facilisi. Sed mollis, eros et ultrices tempus</li>
           </ul>
           <div className='product-cta'>
-            <div className='product-wishlist'>
-              <img src='/src/assets/products-card/products-item-hero-icon.svg' />
+            <div className='product-add-btn'>
+              <p>-</p>1<p>+</p>
             </div>
             <button>Add To Cart</button>
             <div className='product-wishlist'>
@@ -52,9 +54,24 @@ const Product = () => {
       <hr />
       <div className='product-tabs-container'>
         <div className='product-tabs'>
-          <p>Description</p>
-          <p>Shipping</p>
-          <p>Returns</p>
+          <p
+            className={selectedTab === 'description' && 'active-tab'}
+            onClick={() => setSelectedTab('description')}
+          >
+            Description
+          </p>
+          <p
+            className={selectedTab === 'shipping' && 'active-tab'}
+            onClick={() => setSelectedTab('shipping')}
+          >
+            Shipping
+          </p>
+          <p
+            className={selectedTab === 'returns' && 'active-tab'}
+            onClick={() => setSelectedTab('returns')}
+          >
+            Returns
+          </p>
         </div>
         <div className='product-tabs-content'>
           <p>

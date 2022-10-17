@@ -6,12 +6,20 @@ const FineJewellery = () => {
     <section className='fine-jewellery'>
       <h2>Welcome to Tawisa - Fine Jewellery</h2>
       <section className='fine-jewellery-collection'>
-        <div className='fine-jewellery-left'></div>
+        <div className='fine-jewellery-left'>
+          <p>New Arrivals</p>
+        </div>
         <div className='fine-jewellery-right'>
-          <div className='fine-jewellery-flawless'></div>
+          <div className='fine-jewellery-flawless'>
+            <p>Flawless Collections</p>
+          </div>
           <div className='fine-jewellery-lower-right'>
-            <div className='fine-jewellery-ethically'></div>
-            <div className='fine-jewellery-memorable'></div>
+            <div className='fine-jewellery-ethically'>
+              <p>Styled Ethically</p>
+            </div>
+            <div className='fine-jewellery-memorable'>
+              <p>Memorable </p>
+            </div>
           </div>
         </div>
       </section>

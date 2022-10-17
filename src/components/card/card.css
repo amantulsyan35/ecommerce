@@ -23,6 +23,10 @@
   /* justify-content: end; */
 }
 
+.products-item-hero svg {
+  cursor: pointer;
+}
+
 .products-item-cards-rating {
   display: flex;
   flex-direction: row;
@@ -46,12 +50,34 @@
   border: none;
   border: 1px solid #442414;
   background-color: transparent;
+  cursor: pointer;
 }
+
+.cart-button:hover {
+  height: 50px;
+  border: none;
+  border: none;
+  background-color: #442414;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  color: white;
+  cursor: pointer;
+}
+
 .whatsapp-button {
   height: 50px;
   border: none;
   border: 1px solid #52b69a;
   background-color: transparent;
+  color: #52b69a;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
 }
 
 /* WISHLIST CARD */
@@ -114,6 +140,7 @@
   height: 50px;
   border: none;
   color: white;
+  cursor: pointer;
 }
 
 .wishlist-details-hero {

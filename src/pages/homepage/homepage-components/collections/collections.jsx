@@ -13,6 +13,7 @@ const Collections = () => {
               ? 'collections-tab-active'
               : 'collections-tab'
           }
+          onClick={() => setCurrentTab('new-arrived')}
         >
           <p>New Arrived</p>
         </div>
@@ -22,6 +23,7 @@ const Collections = () => {
               ? 'collections-tab-active'
               : 'collections-tab'
           }
+          onClick={() => setCurrentTab('on-sale')}
         >
           <p>On Sale</p>
         </div>

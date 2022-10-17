@@ -10,6 +10,7 @@ import {
   Newsletter,
 } from './homepage-components';
 import { ThirdSection } from '../../components';
+import { SubscribeModal } from '../../components';
 
 import './homepage.css';
 
@@ -17,6 +18,7 @@ const Homepage = () => {
   return (
     <main>
       <Hero />
+      {/*   <SubscribeModal />*/}
       <FineJewellery />
       <ThirdSection />
       <FeaturedCollection />

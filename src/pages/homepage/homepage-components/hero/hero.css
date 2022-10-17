@@ -26,3 +26,14 @@
   margin-left: 5rem;
   font-size: 16px;
 }
+
+.homepage-hero-section button:hover {
+  background-color: #db844e;
+  border: 0;
+  color: white;
+  cursor: pointer;
+  width: 227px;
+  height: 52px;
+  margin-left: 5rem;
+  font-size: 16px;
+}

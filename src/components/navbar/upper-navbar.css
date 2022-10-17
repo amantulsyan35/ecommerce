@@ -5,7 +5,10 @@
   flex-direction: row;
   justify-content: end;
   align-items: center;
-  background-color: #e1cbd2;
+  background: url('/src/assets/upper_nav.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   gap: 1rem;
 }
 

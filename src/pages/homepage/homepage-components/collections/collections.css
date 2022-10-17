@@ -47,6 +47,13 @@
 .collections-tab p {
   color: #442414;
   font-size: 20px;
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.collections-tab-active p {
+  color: #442414;
+  font-size: 20px;
   cursor: pointer;
 }
 

@@ -1,0 +1,43 @@
+.subscribe-modal {
+  height: 617px;
+  width: 950px;
+  border: 1px solid black;
+  background: url('/src/assets/Subscription\ popup.png');
+  /* background-repeat: no-repeat; */
+  /* background-position: center; */
+  background-size: cover;
+  display: flex;
+  padding: 1rem;
+  flex-direction: column;
+  gap: 1rem;
+  margin: auto;
+}
+
+.subscribe-modal h1 {
+  font-size: 51px;
+}
+
+.subscribe-modal p {
+  font-size: 19.47px;
+  color: #656565;
+}
+
+.subscribe-modal input {
+  font-size: 15px;
+  height: 55px;
+  width: 492px;
+  color: #7e5923;
+  padding: 5px;
+  border-radius: 10px;
+  border: 1px solid rgb(0, 0, 0, 0.4);
+}
+
+.subscribe-modal button {
+  cursor: pointer;
+  border: none;
+  background-color: #c77a53;
+  width: 295px;
+  height: 45px;
+  color: white;
+  font-size: 13px;
+}
