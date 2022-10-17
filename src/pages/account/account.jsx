@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './account.css';
 import { WishlistItemCard } from '../../components';
 
@@ -98,24 +98,26 @@ const GiftCards = () => {
 };
 
 const MyAccount = () => {
+  const [accountTab, setAccountTab] = useState('personel_info');
   return (
     <div className='account'>
       <h2>My Account</h2>
       <div className='account-dashboard'>
         <div className='account-menu-container'>
           <div className='account-menu'>
-            <p>Personal Information</p>
-            <p>Your Address</p>
-            <p>Order History</p>
-            <p>Gift Cards</p>
+            <p onClick={() => setAccountTab('personel_info')}>
+              Personal Information
+            </p>
+            <p onClick={() => setAccountTab('address')}>Your Address</p>
+            <p onClick={() => setAccountTab('order_history')}>Order History</p>
+            <p onClick={() => setAccountTab('gift_card')}>Gift Cards</p>
           </div>
         </div>
         <div className='account-details'>
-          {/*<PersonalDetails />*/}
-          {/*<AddressDetails />/*}
-          {/*<OrderHistory />*/}
-          {/*<TrackOrder />*/}
-          <GiftCards />
+          {accountTab === 'personel_info' && <PersonalDetails />}
+          {accountTab === 'address' && <AddressDetails />}
+          {accountTab === 'order_history' && <OrderHistory />}
+          {accountTab === 'gift_card' && <GiftCards />}
         </div>
       </div>
     </div>

@@ -1,10 +1,16 @@
 import React from 'react';
 import './login.css';
 
-const LoginModal = () => {
+const LoginModal = (props) => {
+  const closeLogin = () => {
+    props.loginModalhandler(false);
+  };
+  const donotcloselogin = (e) => {
+    e.stopPropagation();
+  };
   return (
-    <div class='auth_popup_main'>
-      <div class='auth_popup_container'>
+    <div class='auth_popup_main' onClick={closeLogin}>
+      <div class='auth_popup_container' onClick={donotcloselogin}>
         <div class='auth_popup_banner'>
           <img src='/src/assets/auth-modal/signup.png' alt='' />
         </div>

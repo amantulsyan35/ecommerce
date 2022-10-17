@@ -10,23 +10,23 @@ const UpperNavbar = () => {
   const [loginModal, setLoginModal] = useState(false);
   const [logoutModal, setLogoutModal] = useState(false);
 
-  useEffect(() => {
-    /**
-     * Alert if clicked on outside of element
-     */
-    function handleClickOutside(event) {
-      if (ref.current && !ref.current.contains(event.target)) {
-        event.stopPropogation();
-        alert('hii');
-      }
-    }
-    // Bind the event listener
-    document.addEventListener('mousedown', handleClickOutside);
-    return () => {
-      // Unbind the event listener on clean up
-      document.removeEventListener('mousedown', handleClickOutside);
-    };
-  }, [wrapperRef]);
+  // useEffect(() => {
+  //   /**
+  //    * Alert if clicked on outside of element
+  //    */
+  //   function handleClickOutside(event) {
+  //     if (ref.current && !ref.current.contains(event.target)) {
+  //       event.stopPropogation();
+  //       alert('hii');
+  //     }
+  //   }
+  //   // Bind the event listener
+  //   document.addEventListener('mousedown', handleClickOutside);
+  //   return () => {
+  //     // Unbind the event listener on clean up
+  //     document.removeEventListener('mousedown', handleClickOutside);
+  //   };
+  // }, [wrapperRef]);
 
   return (
     <nav ref={wrapperRef} className='upper-nav-container'>
@@ -37,7 +37,7 @@ const UpperNavbar = () => {
       <NavLink className='upper-nav-cart'>
         <img src='/src/assets/wishlist.svg' className='upper-nav-cart-icon' />
       </NavLink>
-      <NavLink className='upper-nav-cart'>
+      <NavLink to='/cart' className='upper-nav-cart'>
         <img
           src='/src/assets/shopping_bag.svg'
           className='upper-nav-cart-icon'
@@ -74,8 +74,8 @@ const UpperNavbar = () => {
           <p className='nav-dialog-contact'>Contact Us</p>
         </div>
       </div>
-      {loginModal && <LoginModal />}
-      {logoutModal && <LogoutModal />}
+      {loginModal && <LoginModal loginModalhandler={setLoginModal} />}
+      {logoutModal && <LogoutModal logoutModalHandler={setLogoutModal} />}
     </nav>
   );
 };

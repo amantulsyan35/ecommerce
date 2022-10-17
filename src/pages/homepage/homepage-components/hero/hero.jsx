@@ -8,13 +8,11 @@ const Hero = () => {
 
   useEffect(() => {
     setIsSubscribe(true);
-
-    return setIsSubscribe(false);
   }, []);
 
   return (
     <section className='homepage-hero-section' onClick={(e) => handleModal}>
-      {isSubscribe && <SubscribeModal />}
+      {isSubscribe && <SubscribeModal setIsSubscribe={setIsSubscribe} />}
 
       <h1>
         Discover a world of

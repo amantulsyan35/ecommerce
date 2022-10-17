@@ -1,10 +1,18 @@
 import React from 'react';
 import './logout.css';
 
-const LoginModal = () => {
+const LoginModal = (props) => {
+  const closeLogout = () => {
+    props.logoutModalHandler(false);
+  };
+
+  const donotcloselogout = (e) => {
+    e.stopPropagation();
+  };
+
   return (
-    <div class='auth_popup_main'>
-      <div class='auth_popup_container'>
+    <div class='auth_popup_main' onClick={closeLogout}>
+      <div class='auth_popup_container' onClick={donotcloselogout}>
         <div class='auth_popup_banner'>
           <img src='/src/assets/auth-modal/login.png' alt='' />
         </div>
