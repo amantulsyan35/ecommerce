@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import CartClose from '../../assets/wishlist/wishlist-close.svg';
 import './card.css';
 
 export const ItemCard = () => {
@@ -70,7 +71,7 @@ export const WishlistItemCard = () => {
       <div className='wishlist-details'>
         <div className='wishlist-details-hero'>
           <h3>Celestial Earrings</h3>
-          <img src='/src/assets/wishlist/wishlist-close.svg' />
+          <img src={CartClose} />
         </div>
         <p>Earrings</p>
         <span>qty</span>

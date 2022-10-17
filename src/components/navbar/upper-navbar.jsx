@@ -36,7 +36,7 @@ const UpperNavbar = () => {
         src='/src/assets/upper-nav-ribbon.svg'
         className='upper-nav-design'
      />*/}
-      <NavLink className='upper-nav-cart'>
+      <NavLink to='/wishlist' className='upper-nav-cart'>
         <img src={wishlisticon} className='upper-nav-cart-icon' />
       </NavLink>
       <NavLink to='/cart' className='upper-nav-cart'>

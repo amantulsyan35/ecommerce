@@ -1,5 +1,9 @@
 import React from 'react';
 import './login.css';
+import signup from './../../assets/auth-modal/signup.png';
+import googleicon from './../../assets/auth-modal/google.png';
+import fbicon from './../../assets/auth-modal/fb.png';
+import twittericon from './../../assets/auth-modal/twitter.png';
 
 const LoginModal = (props) => {
   const closeLogin = () => {
@@ -12,7 +16,7 @@ const LoginModal = (props) => {
     <div class='auth_popup_main' onClick={closeLogin}>
       <div class='auth_popup_container' onClick={donotcloselogin}>
         <div class='auth_popup_banner'>
-          <img src='/src/assets/auth-modal/signup.png' alt='' />
+          <img src={signup} alt='' />
         </div>
         <div class='auth_popup_form'>
           <h3>Create an account</h3>
@@ -46,15 +50,15 @@ const LoginModal = (props) => {
               <span>Sign up using</span>
               <a href='#'>
                 {' '}
-                <img src='/src/assets/auth-modal/google.png' alt='' />{' '}
+                <img src={googleicon} alt='' />{' '}
               </a>
               <a href='#'>
                 {' '}
-                <img src='/src/assets/auth-modal/fb.png' alt='' />{' '}
+                <img src={fbicon} alt='' />{' '}
               </a>
               <a href='#'>
                 {' '}
-                <img src='/src/assets/auth-modal/fb.png' alt='' />{' '}
+                <img src={twittericon} alt='' />{' '}
               </a>
             </div>
           </div>

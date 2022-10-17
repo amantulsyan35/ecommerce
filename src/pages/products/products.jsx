@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import ProductsHero from './product-components/product-hero/products-hero';
 import { ThirdSection, ItemCard } from '../../components/';
 
@@ -185,12 +186,24 @@ const Products = () => {
           </div>
         </div>
         <div className='products-items-container'>
-          <ItemCard />
-          <ItemCard />
-          <ItemCard />
-          <ItemCard />
-          <ItemCard />
-          <ItemCard />
+          <Link to='/products/4'>
+            <ItemCard />
+          </Link>
+          <Link to='/products/4'>
+            <ItemCard />
+          </Link>
+          <Link to='/products/4'>
+            <ItemCard />
+          </Link>
+          <Link to='/products/4'>
+            <ItemCard />
+          </Link>
+          <Link to='/products/4'>
+            <ItemCard />
+          </Link>
+          <Link to='/products/4'>
+            <ItemCard />
+          </Link>
         </div>
       </section>
       {/* <div className='products-pagination'>
