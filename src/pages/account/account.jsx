@@ -112,7 +112,7 @@ const MyAccount = () => {
         </div>
         <div className='account-details'>
           {/*<PersonalDetails />*/}
-          {/*<AddressDetails />*/}
+          {/*<AddressDetails />/*}
           {/*<OrderHistory />*/}
           {/*<TrackOrder />*/}
           <GiftCards />

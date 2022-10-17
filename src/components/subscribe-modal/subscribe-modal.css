@@ -1,43 +1,62 @@
-.subscribe-modal {
-  height: 617px;
-  width: 950px;
-  border: 1px solid black;
-  background: url('/src/assets/Subscription\ popup.png');
-  /* background-repeat: no-repeat; */
-  /* background-position: center; */
-  background-size: cover;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+} */
+.subs_popup_main {
+  width: 100%;
+  height: 100vh;
   display: flex;
-  padding: 1rem;
-  flex-direction: column;
-  gap: 1rem;
-  margin: auto;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.24);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 99;
 }
-
-.subscribe-modal h1 {
-  font-size: 51px;
+.subs_popup_container {
+  max-width: 950px;
+  background: #dbd3bd;
+  box-shadow: 0px 21.5909px 66.572px rgba(0, 0, 0, 0.1);
+  padding: 90px 40px;
+  background-image: url('/src/assets/subspopup.png');
+  background-repeat: no-repeat;
+  background-size: 50%;
+  background-position: top right;
 }
-
-.subscribe-modal p {
-  font-size: 19.47px;
-  color: #656565;
+.subs_popup_container h3 {
+  font-size: 52px;
+  font-weight: 600;
+  line-height: 57px;
 }
-
-.subscribe-modal input {
-  font-size: 15px;
-  height: 55px;
-  width: 492px;
-  color: #7e5923;
-  padding: 5px;
-  border-radius: 10px;
-  border: 1px solid rgb(0, 0, 0, 0.4);
+.subs_popup_container p {
+  font-size: 20px;
+  font-weight: 300;
+  width: 60%;
+  margin: 15px 0;
 }
-
-.subscribe-modal button {
-  cursor: pointer;
-  border: none;
-  background-color: #c77a53;
-  width: 295px;
-  height: 45px;
+.subs_popup_container input {
+  background: none;
+  width: 100%;
+  max-width: 490px;
+  padding: 10px 25px;
+  border: 1px solid black;
+  border-radius: 8px;
+  margin: 20px 0;
+  outline: none;
+}
+.subs_popup_container button {
+  display: block;
+  margin-top: 20px;
+  background: #c77a53;
   color: white;
-  font-size: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+  border: none;
+  padding: 8px 0;
+  text-align: center;
+  width: 300px;
 }

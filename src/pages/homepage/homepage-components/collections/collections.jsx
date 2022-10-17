@@ -31,33 +31,33 @@ const Collections = () => {
       <div className='collections-item-container'>
         <div className='collections-item'>
           <div className='collections-img-1'></div>
-          <p>name</p>
-          <p>x</p>
+          <p>Floral theme rings</p>
+          <p>$669</p>
         </div>
         <div className='collections-item'>
-          <div className='collections-img-2'></div>
-          <p>name</p>
-          <p>y</p>
+          <div className='collections-img-1'></div>
+          <p>Floral theme rings</p>
+          <p>$669</p>
         </div>
         <div className='collections-item'>
-          <div className='collections-img-3'></div>
-          <p>name</p>
-          <p>x</p>
+          <div className='collections-img-1'></div>
+          <p>Floral theme rings</p>
+          <p>$669</p>
         </div>
         <div className='collections-item'>
-          <div className='collections-img-4'></div>
-          <p>name</p>
-          <p>x</p>
+          <div className='collections-img-1'></div>
+          <p>Floral theme rings</p>
+          <p>$669</p>
         </div>
         <div className='collections-item'>
-          <div className='collections-img-5'></div>
-          <p>name</p>
-          <p>x</p>
+          <div className='collections-img-1'></div>
+          <p>Floral theme rings</p>
+          <p>$669</p>
         </div>
         <div className='collections-item'>
-          <div className='collections-img-6'></div>
-          <p>name</p>
-          <p>x</p>
+          <div className='collections-img-1'></div>
+          <p>Floral theme rings</p>
+          <p>$669</p>
         </div>
       </div>
     </section>

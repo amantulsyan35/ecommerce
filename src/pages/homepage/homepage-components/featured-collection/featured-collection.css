@@ -32,12 +32,26 @@
   /* border: 1px solid rgb(0, 0, 0, 0.2); */
   height: 299px;
   width: 610px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+  padding: 1rem;
+  color: white;
+  font-size: 30px;
 }
 
 .featured-collection-item-2 {
   background: url('/src/assets/featured-collection/3.png');
   height: 299px;
   width: 610px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+  padding: 1rem;
+  color: white;
+  font-size: 30px;
 }
 
 .featured-collection-bottom {
@@ -52,9 +66,23 @@
   background: url('/src/assets/featured-collection/2.png');
   height: 299px;
   width: 610px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+  padding: 1rem;
+  color: white;
+  font-size: 30px;
 }
 .featured-collection-item-4 {
   background: url('/src/assets/featured-collection/4.png');
   height: 299px;
   width: 610px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+  padding: 1rem;
+  color: white;
+  font-size: 30px;
 }

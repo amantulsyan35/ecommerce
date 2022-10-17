@@ -8,6 +8,7 @@
   background-image: url('/src/assets/third-section/background.svg');
   background-repeat: no-repeat;
   background-position: center;
+  background-size: cover;
 }
 
 .third-section-item {

@@ -23,6 +23,7 @@
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+  padding: 1rem;
   gap: 1rem;
   background: linear-gradient(
     180deg,
