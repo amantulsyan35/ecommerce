@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
 .products-hero {
   height: 408px;
   background-image: url('/src/assets/products-hero/products-hero.png');
@@ -11,10 +14,15 @@
 }
 
 .products-hero h1 {
+  font-family: 'Playfair Display';
+  font-style: normal;
   font-weight: 600;
-  font-size: 52.48px;
-  letter-spacing: 2%;
-  line-height: 69.96px;
+  font-size: 55.8511px;
+  line-height: 74px;
+  letter-spacing: 0.02em;
+
+  color: #442414;
+
   margin-left: 5rem;
 }
 

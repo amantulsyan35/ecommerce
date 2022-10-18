@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
 .newsletter {
   height: 99px;
   display: flex;
@@ -31,7 +34,16 @@
 } */
 
 .newsletter-left h2 {
-  color: white;
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 43px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #f6f6f6;
 }
 
 .newsletter-right {
@@ -45,6 +57,7 @@
   width: 422px;
   height: 47px;
   border: none;
+  padding: 15px;
 }
 
 .newsletter-right button {
@@ -56,4 +69,16 @@
   font-weight: 100;
   text-transform: uppercase;
   cursor: pointer;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+
+  text-align: center;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+
+  color: #020d42;
 }

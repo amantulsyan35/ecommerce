@@ -1,12 +1,24 @@
 import React, { useState } from 'react';
 import './product.css';
 import { ItemCard } from '../../components';
+import ReviewModal from '../../components/review-modal/review-modal';
 
 const Product = () => {
   const [selectedTab, setSelectedTab] = useState('description');
+  const [isReview, setIsReview] = useState(false);
+
+  const handlereviewClose = (e) => {
+    e.stopPropagation();
+    setIsReview(false);
+  };
+
+  const handleOpenReview = (e) => {
+    e.stopPropagation();
+    setIsReview(true);
+  };
 
   return (
-    <section className='product-page'>
+    <section className='product-page' onClick={handlereviewClose}>
       <div className='product-details'>
         <div className='product-details-left'>
           <div className='product-details-small-images'>
@@ -18,13 +30,15 @@ const Product = () => {
           <div className='product-details-images'>1.2</div>
         </div>
         <div className='product-details-right'>
-          <p className='nav-info'>
+          <p className='product-nav-info'>
             Home {`>`} Shop {`>`} Earrings {`>`} Product
           </p>
           <div className='product-detail-reviews'>
             <img src='/src/assets/products-card/Star .png' />
             <img src='/src/assets/products-card/Star .png' />
             <img src='/src/assets/products-card/Star .png' />
+            <img src='/src/assets/gray_star.png' />
+            <img src='/src/assets/gray_star.png' />
             <p>| 100 Reviews</p>
           </div>
           <h2 className='product-name'>Celestial Rings</h2>
@@ -43,12 +57,12 @@ const Product = () => {
             <div className='product-add-btn'>
               <p>-</p>1<p>+</p>
             </div>
-            <button>Add To Cart</button>
+            <button className='product-add-to-cart'>Add To Cart</button>
             <div className='product-wishlist'>
               <img src='/src/assets/products-card/products-item-hero-icon.svg' />
             </div>
           </div>
-          <button>Buy It Now</button>
+          <button className='product-buy'>Buy It Now</button>
         </div>
       </div>
       <hr />
@@ -136,9 +150,12 @@ const Product = () => {
           </div>
         </div>
         <div>
-          <button>Leave a Rating For The Product</button>
+          <button onClick={handleOpenReview}>
+            Leave a Rating For The Product
+          </button>
         </div>
       </div>
+      {isReview && <ReviewModal />}
       <div className='prod-rec-section'>
         <h2>You may also like</h2>
         <div className='prod-rec-items'>

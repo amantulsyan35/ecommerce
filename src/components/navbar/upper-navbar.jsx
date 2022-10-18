@@ -8,6 +8,7 @@ import wishlisticon from './../../assets/wishlist.svg';
 
 const UpperNavbar = () => {
   const wrapperRef = useRef(null);
+  const [isLoggedIn, setIsLoggedIn] = useState(true);
   const [isDialog, setIsDialog] = useState(false);
   const [loginModal, setLoginModal] = useState(false);
   const [logoutModal, setLogoutModal] = useState(false);
@@ -43,12 +44,19 @@ const UpperNavbar = () => {
         <img src={carticon} className='upper-nav-cart-icon' />
       </NavLink>
 
-      <button
-        className='upper-nav-button'
-        onMouseEnter={() => setIsDialog(true)}
-      >
-        Login/Sign up
-      </button>
+      {!isLoggedIn ? (
+        <button
+          className='upper-nav-button'
+          onMouseEnter={() => setIsDialog(true)}
+        >
+          Login/Sign up
+        </button>
+      ) : (
+        <div className='upper-nav-profile'>
+          <p>Sofia brichet</p>
+          <div className='upper-nav-profile-picture'>x</div>
+        </div>
+      )}
       <div
         onMouseLeave={() => setIsDialog(false)}
         className={isDialog ? 'nav-hover-dialog' : 'nav-hover-dialog-hidden'}

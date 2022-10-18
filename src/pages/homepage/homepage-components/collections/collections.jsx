@@ -32,32 +32,7 @@ const Collections = () => {
         <div className='collections-item'>
           <div className='collections-img-1'></div>
           <p>Floral theme rings</p>
-          <p>$669</p>
-        </div>
-        <div className='collections-item'>
-          <div className='collections-img-1'></div>
-          <p>Floral theme rings</p>
-          <p>$669</p>
-        </div>
-        <div className='collections-item'>
-          <div className='collections-img-1'></div>
-          <p>Floral theme rings</p>
-          <p>$669</p>
-        </div>
-        <div className='collections-item'>
-          <div className='collections-img-1'></div>
-          <p>Floral theme rings</p>
-          <p>$669</p>
-        </div>
-        <div className='collections-item'>
-          <div className='collections-img-1'></div>
-          <p>Floral theme rings</p>
-          <p>$669</p>
-        </div>
-        <div className='collections-item'>
-          <div className='collections-img-1'></div>
-          <p>Floral theme rings</p>
-          <p>$669</p>
+          <p className='collections-item-price'>$669</p>
         </div>
       </div>
     </section>

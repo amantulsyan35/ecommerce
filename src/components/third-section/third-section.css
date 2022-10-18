@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
 .third-section {
   display: flex;
   flex-direction: row;
@@ -25,6 +27,19 @@
 }
 
 .third-section-item-container p {
-  color: white;
-  font-size: 20px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20.1944px;
+  line-height: 25px;
+  /* identical to box height */
+
+  text-align: center;
+  letter-spacing: 0.05em;
+
+  color: #ffffff;
+}
+
+.third-section-item-container:hover {
+  scale: 0.9;
 }

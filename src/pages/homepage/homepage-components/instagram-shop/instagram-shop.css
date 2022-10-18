@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
 .instagram-shop {
   height: 603px;
   display: flex;
@@ -6,12 +9,22 @@
   display: flex;
   gap: 1rem;
   flex-direction: column;
+  margin-top: 2rem;
 }
 
 .instagram-shop h2 {
-  color: #442414;
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 600;
   font-size: 30px;
-  margin-top: 2rem;
+  line-height: 40px;
+  margin-bottom: 72px;
+  /* identical to box height */
+
+  text-align: center;
+  letter-spacing: 0.05em;
+
+  color: #442414;
 }
 
 .instagram-shop-container {

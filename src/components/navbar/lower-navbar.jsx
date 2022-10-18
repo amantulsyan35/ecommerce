@@ -1,11 +1,16 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import './low-navbar.css';
 import searchicon from './../../assets/search.svg';
+import SearchOverlay from '../search-hover/search-overlay';
 
 const LowerNavbar = () => {
+  const [isSearchDialog, setIsSearchDialog] = useState(false);
   return (
-    <nav className='lower-nav-container'>
+    <nav
+      className='lower-nav-container'
+      onMouseLeave={() => setIsSearchDialog(false)}
+    >
       <NavLink to='/'>
         <h2>TAWISA</h2>
       </NavLink>
@@ -20,11 +25,15 @@ const LowerNavbar = () => {
         <NavLink className='lower-nav-link'>Blogs</NavLink>
         <NavLink className='lower-nav-link'>Gifting</NavLink>
       </div>
-      <div className='lower-nav-input'>
+      <div
+        className='lower-nav-input'
+        onMouseEnter={() => setIsSearchDialog(true)}
+      >
         <input type='text' placeholder='Search For Anything' />
         <img src={searchicon} className='lower-nav-search' />
-        <img src='/src/assets/location.svg' />
       </div>
+
+      {isSearchDialog && <SearchOverlay />}
     </nav>
   );
 };

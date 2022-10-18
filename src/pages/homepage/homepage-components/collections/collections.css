@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
 .collections {
   height: 100%;
   /* border: 1px solid rgb(0, 0, 0, 0.2); */
@@ -8,9 +11,18 @@
 }
 
 .collections h2 {
-  color: #442414;
-  margin-top: 2rem;
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 600;
   font-size: 30px;
+  line-height: 40px;
+  margin-top: 55px;
+  /* identical to box height */
+
+  text-align: center;
+  letter-spacing: 0.05em;
+
+  color: #442414;
 }
 
 .collections-tab-header {
@@ -45,15 +57,29 @@
 }
 
 .collections-tab p {
-  color: #442414;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
   font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.05em;
+
+  color: #442414;
   opacity: 0.5;
   cursor: pointer;
 }
 
 .collections-tab-active p {
-  color: #442414;
+  cfont-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
   font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.05em;
+
+  color: #442414;
   cursor: pointer;
 }
 
@@ -129,6 +155,26 @@
 }
 
 .collections-item p {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 100;
+  font-size: 26.1538px;
+  line-height: 32px;
+  letter-spacing: 0.05em;
+
   color: #442414;
-  font-size: 26px;
+}
+
+.collections-item-price {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 26.1538px;
+  line-height: 32px;
+  /* identical to box height */
+
+  text-align: center;
+  letter-spacing: 0.05em;
+
+  color: #442414;
 }

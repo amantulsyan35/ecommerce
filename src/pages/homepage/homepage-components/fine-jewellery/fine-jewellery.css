@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
 .fine-jewellery {
   height: 100%;
   display: flex;
@@ -7,9 +10,18 @@
 }
 
 .fine-jewellery h2 {
-  color: #442414;
-  margin-top: 2rem;
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 600;
   font-size: 30px;
+  line-height: 40px;
+  /* identical to box height */
+
+  text-align: center;
+  letter-spacing: 0.05em;
+
+  color: #442414;
+
   margin-top: 2rem;
 }
 
@@ -33,7 +45,12 @@
   color: white;
   padding-left: 36px;
   padding-bottom: 39px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
   font-size: 30px;
+  line-height: 37px;
+  letter-spacing: 0.05em;
 }
 
 .fine-jewellery-right {
@@ -54,7 +71,12 @@
   color: white;
   padding-left: 29px;
   padding-bottom: 26px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
   font-size: 30px;
+  line-height: 37px;
+  letter-spacing: 0.05em;
 }
 
 .fine-jewellery-lower-right {
@@ -77,6 +99,12 @@
   padding-left: 29px;
   padding-bottom: 37px;
   font-size: 25px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 37px;
+  letter-spacing: 0.05em;
 }
 
 .fine-jewellery-memorable {
@@ -92,4 +120,10 @@
   padding-left: 29px;
   padding-bottom: 37px;
   font-size: 25px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 37px;
+  letter-spacing: 0.05em;
 }

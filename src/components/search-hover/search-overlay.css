@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Poppins&display=swap');
+
+.search-overlay {
+  width: 792px;
+  height: 293px;
+  border-radius: 6px;
+  background-color: white;
+  opacity: 90%;
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  padding: 1rem;
+  position: absolute;
+  top: 150px;
+  right: 140px;
+}
+
+.search-overlay-recent {
+  border-right: 1px solid rgba(0, 0, 0, 0.3);
+  padding: 1rem;
+  /* padding-left: 41px; */
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.search-overlay-recent-p {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #525252;
+  margin-bottom: 10px;
+}
+
+.search-overlay-recent-title {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  color: #1f1f1f;
+  margin-bottom: 26px;
+}
+
+.search-overlay-popular {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  width: 100%;
+  color: #1f1f1f;
+  padding: 1rem;
+}
+
+.search-overlay-popular p {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.search-overlay-popular-items-container {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+  width: 100%;
+  padding: 1rem;
+}
+
+.search-overlay-popular-items {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.search-overlay-picture {
+  border-radius: 50%;
+  width: 46px;
+  height: 46px;
+  border: 1px solid rgb(0, 0, 0, 0.4);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-overlay-popular-detail p {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+
+  color: #525252;
+}

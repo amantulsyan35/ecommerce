@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+
 .lower-nav-container {
   height: 100px;
   display: flex;
@@ -8,8 +11,13 @@
   /* border: 1px solid rgb(0, 0, 0, 0.2); */
 }
 
-.lower-nav-logo h2 {
+.lower-nav-container h2 {
   color: #442414;
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  letter-spacing: 0.05em;
 }
 
 .lower-nav-link-container {
@@ -21,6 +29,16 @@
 .lower-nav-link {
   text-decoration: none;
   color: #442414;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+}
+
+.lower-nav-link:hover {
+  scale: 1;
+  font-weight: bold;
 }
 
 .lower-nav-input {
@@ -39,4 +57,5 @@
 
 .lower-nav-search {
   margin-left: -3rem;
+  position: relative;
 }

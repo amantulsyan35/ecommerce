@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap');
+
 .product-details {
   margin-left: 4rem;
   margin-right: 4rem;
@@ -35,7 +39,14 @@
   gap: 1rem;
 }
 
-.nav-info {
+.product-nav-info {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14.5891px;
+  line-height: 18px;
+  /* identical to box height */
+
   color: #cccccc;
 }
 
@@ -46,20 +57,60 @@
 }
 
 .product-detail-reviews p {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14.5891px;
+  line-height: 18px;
+  /* identical to box height */
+
   color: #cccccc;
 }
 
 .product-name {
-  font-size: 36px;
-  color: #442414;
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32.06px;
+  line-height: 43px;
+  /* identical to box height */
+
+  color: #000000;
 }
 
 .product-price {
-  font-size: 32px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30.06px;
+  line-height: 37px;
+  /* identical to box height */
+
+  letter-spacing: 0.05em;
+
+  color: #442414;
 }
 
 .produc-desc {
-  font-size: 14px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14.06px;
+  line-height: 23px;
+  /* or 164% */
+
+  color: #000000;
+}
+
+.produc-desc li {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14.06px;
+  line-height: 29px;
+  /* or 206% */
+
+  color: #000000;
 }
 
 .product-details-right ul {
@@ -78,10 +129,24 @@
   gap: 1rem;
 }
 
-.product-cta button {
-  width: 190px;
-  border: 1px solid #442414;
+.product-add-to-cart {
+  width: 100%;
+  /* width: 190px; */
+  border: 1px solid black;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16.84px;
+  line-height: 21px;
+  /* identical to box height */
+  cursor: pointer;
+  color: #9f858e;
   background-color: transparent;
+}
+.product-add-to-cart:hover {
+  background-color: #9f858e;
+  color: white;
+  border: 1px solid black;
 }
 
 .product-add-btn {
@@ -110,12 +175,19 @@
   justify-content: center;
 }
 
-.product-details-right button {
-  height: 50px;
-  background-color: #c5adb5;
-  color: white;
-  font-size: 14px;
-  border: none;
+.product-buy {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16.84px;
+  line-height: 21px;
+  /* identical to box height */
+
+  color: #ffffff;
+}
+
+.product-buy:hover {
+  scale: 0.9;
 }
 
 .product-page hr {
@@ -148,16 +220,27 @@
 }
 
 .product-tabs p {
-  font-size: 25px;
-  color: #442414;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-size: 25.06px;
+  line-height: 31px;
+  /* identical to box height */
+
+  color: #000000;
   cursor: pointer;
 }
 
 .active-tab {
   font-weight: bold;
-  font-size: 25px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25.06px;
+  line-height: 31px;
+  /* identical to box height */
+
+  color: #000000;
   cursor: pointer;
-  color: #442414;
 }
 
 .product-tabs-content {
@@ -170,12 +253,26 @@
 }
 
 .product-tabs-content p {
-  font-size: 18px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  /* font-weight: 400; */
+  font-size: 14.06px;
+  line-height: 27px;
+  /* or 192% */
+
+  color: #000000;
 }
 
 .product-tabs-content ul {
   margin-left: 2rem;
-  font-size: 18px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-size: 14.06px;
+  line-height: 27px;
+  /* or 192% */
+
+  color: #000000;
+
   display: flex;
   flex-direction: column;
   gap: 1rem;
@@ -192,16 +289,20 @@
 }
 
 .product-customer-reviews h2 {
-  color: #442414;
-  margin-top: 2rem;
-  font-size: 30px;
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25.06px;
+  line-height: 33px;
+  margin-top: 47px;
+  color: #000000;
   text-align: center;
 }
 
 .review-containers {
   display: flex;
   flex-direction: column;
-  gap: 1rem;
+  gap: 104px;
   padding: 1rem;
 }
 
@@ -235,6 +336,8 @@
   height: 50px;
   background-color: #c5adb5;
   color: white;
+  margin-top: 143px;
+  cursor: pointer;
 }
 
 .prod-rec-section {

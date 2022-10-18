@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
 .bespoke-design {
   background: url('/src/assets/be-spoke/be-spoke.png');
   background-repeat: no-repeat;
@@ -12,18 +15,26 @@
 }
 
 .bespoke-design h1 {
-  color: white;
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 600;
   font-size: 70px;
   line-height: 110px;
-  font-weight: 600;
+  /* identical to box height, or 157% */
+
+  color: #f6f6f6;
   margin-left: 102px;
 }
 
 .bespoke-design p {
-  color: white;
+  font-family: 'Montserrat';
+  font-style: normal;
   font-weight: 400;
   font-size: 20px;
   line-height: 41px;
+  /* or 205% */
+
+  color: #f6f6f6;
   margin-left: 102px;
 }
 

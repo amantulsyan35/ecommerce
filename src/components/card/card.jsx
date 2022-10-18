@@ -28,6 +28,8 @@ export const ItemCard = () => {
         <img src='/src/assets/products-card/Star .png' />
         <img src='/src/assets/products-card/Star .png' />
         <img src='/src/assets/products-card/Star .png' />
+        <img src='/src/assets/gray_star.png' />
+        <img src='/src/assets/gray_star.png' />
       </div>
       <p>Gold plated Earring set</p>
       <p>₹2342</p>

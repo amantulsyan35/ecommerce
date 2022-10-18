@@ -9,7 +9,7 @@ const Newsletter = () => {
         <h2>Subscribe to our newsletter</h2>
       </div>
       <div className='newsletter-right'>
-        <input />
+        <input type='email' placeholder='Enter your email' />
         <button>Subscribe</button>
       </div>
     </section>

@@ -206,11 +206,11 @@ const Products = () => {
           </Link>
         </div>
       </section>
-      {/* <div className='products-pagination'>
+      <div className='products-pagination'>
         <div>1</div>
         <div>2</div>
-  <div>3</div>
-      </div>*/}
+        <div>3</div>
+      </div>
     </main>
   );
 };
