@@ -127,3 +127,11 @@
   line-height: 37px;
   letter-spacing: 0.05em;
 }
+
+.fine-jewellery-card {
+  transition: 0.2s;
+}
+.fine-jewellery-card:hover {
+  scale:0.95;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+}

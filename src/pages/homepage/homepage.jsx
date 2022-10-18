@@ -8,6 +8,7 @@ import {
   Promises,
   InstagramShop,
   Newsletter,
+  Testimonials
 } from './homepage-components';
 import { ThirdSection } from '../../components';
 
@@ -23,6 +24,7 @@ const Homepage = () => {
       <BeSpokeDesigns />
       <Collections />
       <Promises />
+      <Testimonials />
       <InstagramShop />
       <Newsletter />
     </main>

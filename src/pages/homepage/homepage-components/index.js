@@ -6,3 +6,4 @@ export { default as Collections } from './collections/collections.jsx';
 export { default as Promises } from './promises/promises.jsx';
 export { default as InstagramShop } from './instagram-shop/instagram-shop.jsx';
 export { default as Newsletter } from './newsletter/newsletter.jsx';
+export { default as Testimonials } from './testimonials/testimonials.jsx';

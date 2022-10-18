@@ -125,3 +125,11 @@
 
   color: #fffaee;
 }
+
+.featured-collection-card {
+  transition: 0.2s;
+}
+.featured-collection-card:hover {
+  scale:0.95;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+}
